@@ -79,7 +79,7 @@
       "mediaQueries": [
         {
           "query": "max-width: 640px",
-          "style": "padding: 24px 24px 32px 24px;"
+          "style": "padding: 24px 24px 32px 24px; width: 327px;"
         }
       ],
       "children": [

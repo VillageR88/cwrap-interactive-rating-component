@@ -69,6 +69,12 @@
   ],
   "element": "body",
   "style": "background-color: #131518; display: flex; align-items: center; justify-content: center; margin: 0; padding: 24px; min-height: 100dvh; box-sizing: border-box; font-family: Overpass;",
+  "mediaQueries": [
+    {
+      "query": "max-width: 640px",
+      "style": "width: ;"
+    }
+  ],
   "children": [
     {
       "element": "form",
@@ -76,14 +82,14 @@
       "mediaQueries": [
         {
           "query": "max-width: 640px",
-          "style": "padding: 24px 24px 32px 24px;"
+          "style": "padding: 24px 24px 32px 24px; width: 327px;"
         }
       ],
       "children": [
         {
           "element": "img",
           "attributes": {
-            "src": "./static/images/illustration-thank-you.svg",
+            "src": "../static/images/illustration-thank-you.svg",
             "width": "auto",
             "height": "auto",
             "alt": "Dick Laurent is dead"
@@ -93,7 +99,7 @@
         {
           "element": "div",
           "style": "background-color: #262E38; height: 32px; line-height: 32px; padding-inline: 20px; border-radius: 22px; margin-top: 32px; color: #FC7614;",
-          "text": "You selected 5 out of 5"
+          "text": "You selected cwrapGetParams[rating] out of 5"
         },
         {
           "element": "section",
